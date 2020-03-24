@@ -15,5 +15,7 @@ public class Caesar{
     }
      public static String decoding (String ciphertext, int key)
     {
+          ciphertext = ciphertext.toLowerCase() ;      
+        String plaintext = "" ;
     }
     }
