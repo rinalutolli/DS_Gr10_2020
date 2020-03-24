@@ -13,5 +13,7 @@ public class Caesar{
         }
         return ciphertext ;
     }
+     public static String decoding (String ciphertext, int key)
+    {
     }
     }
