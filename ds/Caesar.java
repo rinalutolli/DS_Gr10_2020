@@ -4,5 +4,14 @@ public class Caesar{
     {
         plaintext = plaintext.toLowerCase() ;
         String ciphertext = "" ;
+         for (int i = 0 ; i < plaintext.length() ; i++)
+        {
+            int pozita = alfabeti.indexOf(plaintext.charAt(i)) ;             
+            int enCh = (key + pozita) % 26 ;
+            char ch = alfabeti.charAt(enCh) ;  
+            ciphertext += ch ; 
+        }
+        return ciphertext ;
+    }
     }
     }
