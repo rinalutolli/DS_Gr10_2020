@@ -30,4 +30,11 @@ public class Caesar{
         }
         return plaintext ;
     }
+     public static void main (String [] args)
+    {
+    if("encrypt".equals(args[0]))
+       System.out.println(encoding(args[1],Integer.parseInt(args[2])));
+    if("decrypt".equals(args[0]))
+        System.out.println(decoding(args[1],Integer.parseInt(args[2])));
+    }
     }
